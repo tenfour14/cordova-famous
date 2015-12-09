@@ -5,9 +5,55 @@ html,body {
 	margin: 0;
 	font-size: 'Microsoft Yahei';
 	background: #f2f2f2;
+	font-size: 65.2%;
+	overflow: hidden;
 }
 
+li,ul {
+	margin: 0;
+	padding: 0;
+}
 
 .header {
 	border-bottom: 1px solid #ccc;
+	.evm {
+		background: blue;
+	}
+	.search {
+		input {
+			border: 1px solid red;
+			border-radius: 3px;
+			outline: none;
+			text-indent: 10px;
+			font-size: 1.4rem;
+			color: #999;
+			background: #fff;
+		}
+	}
 }
+
+.footer {
+	border-top: 1px solid #ccc;
+	.footer_btn {
+		line-height: 50px;
+		font-size: 1.2rem;
+		text-align: center;
+		color: #999;
+		&.active {
+			color: red;
+		}
+	}
+}
+
+
+
+.center {
+	overflow-y: auto;
+	-webkit-overflow-scrolling: touch;
+}
+
+.banner {
+
+}
+
+
