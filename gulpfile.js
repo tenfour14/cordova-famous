@@ -35,8 +35,8 @@ gulp.task('html',function(){
 });
 
 gulp.task('img',function(){
-	gulp.src('./src/imgs')
-	.pipe(gulp.dest('./www/'));
+	gulp.src('./src/imgs/**')
+	.pipe(gulp.dest('./www/imgs'));
 });
 
 gulp.task('music',function(){
